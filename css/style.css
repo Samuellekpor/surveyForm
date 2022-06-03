@@ -1,0 +1,48 @@
+
+body{
+    
+    font-family: "poppins", sans-serif;
+    font-size: 14 px;
+    margin: 0;
+    color: white;
+    background-image:
+    linear-gradient(
+      to right,
+      #fffdc2,
+      #fffdc2 15%,
+      #d7f0a2 15%,
+      #d7f0a2 85%,
+      #fffdc2 85%
+    );
+}
+
+#title{
+    font-size: 35px;
+    font-weight: 900px;
+    text-align: center;
+}
+
+p{
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#survey-form{
+    align-content: center;
+    padding-left: 2.5rem;
+    padding-right: 5.5rem;
+    padding-top: 2.5rem;
+    background: rgba(29, 29, 53, 0.8);
+    border-radius: 5px;
+    margin: 0 auto 1.25rem auto;
+    
+}
+
+label{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    margin-bottom: 5px;
+    float: none;
+}

@@ -9,21 +9,21 @@
   <body>
     <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
 
-    <h1>freeCodeCamp Survey System</h1>
+    <h1 id="title">freeCodeCamp Survey System</h1>
     <p>Thank you for taking the time to help us improve the platform</p>
 
-    <form>
+    <form id="survey-form">
       <div>
-        <label>Name</label>
-        <input type="text" />
+        <label id="name-label">Name</label>
+        <input id="name" type="text" />
       </div>
       <div>
-        <label>Email</label>
-        <input type="email" />
+        <label id="email-label">Email</label>
+        <input id="email" type="email" />
       </div>
       <div>
-        <label>Age</label>
-        <input type="number" />
+        <label id="number-label">Age</label>
+        <input id="number" type="number" />
       </div>
       <div>
         <label>Which option best describes your current role?</label>
@@ -87,7 +87,7 @@
         <textarea></textarea>
       </div>
 
-      <button>Submit</button>
+      <button id="submit" type="submit">Submit</button>
     </form>
 
     <script src="js/index.js"></script>
